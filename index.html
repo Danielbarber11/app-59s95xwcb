@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
+    <style>
+        :root { --safe-top: env(safe-area-inset-top); --safe-bottom: env(safe-area-inset-bottom); }
+        * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+        body { 
+          margin: 0; 
+          padding: calc(24px + var(--safe-top)) 24px calc(24px + var(--safe-bottom)); 
+          font-family: -apple-system, system-ui, sans-serif;
+          background: #ffffff; 
+          color: #000; 
+          min-height: 100vh;
+          display: flex; flex-direction: column;
+        }
+        .luxury-card {
+          background: #f9f9f9;
+          padding: 32px;
+          border-radius: 32px;
+          text-align: center;
+          margin-top: 60px;
+        }
+        h1 { font-size: 34px; font-weight: 800; letter-spacing: -1px; margin-bottom: 12px; }
+        p { color: #666; font-size: 17px; line-height: 1.5; margin-bottom: 40px; }
+        input { 
+          width: 100%; padding: 20px; border-radius: 18px; border: 1px solid #eee; 
+          background: #fff; font-size: 16px; margin-bottom: 16px; outline: none;
+        }
+        button { 
+          width: 100%; padding: 22px; border-radius: 20px; border: none; 
+          background: #000; color: #fff; font-weight: 700; font-size: 18px; 
+          cursor: pointer; transition: 0.2s;
+        }
+        button:active { transform: scale(0.98); }
+    </style>
+</head>
+<body>
+    <div class="luxury-card">
+        <h1>ברוכים הבאים.</h1>
+        <p>האפליקציה שלך מעוצבת בצורה נקייה ויוקרתית. בקש מהבוט להוסיף יכולות.</p>
+        <input type="text" placeholder="מה תרצה לעשות היום?">
+        <button>המשך</button>
+    </div>
+</body>
+</html>
