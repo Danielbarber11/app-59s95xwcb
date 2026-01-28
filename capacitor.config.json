@@ -1,0 +1,15 @@
+{
+  "appId": "com.appcraft.enterprise.p59s95xwcb",
+  "appName": "פרוייקט חדש",
+  "webDir": "dist",
+  "server": {
+    "url": "https://Danielbarber11.github.io/app-59s95xwcb/",
+    "cleartext": true
+  },
+  "plugins": {
+    "Keyboard": {
+      "resize": "body",
+      "style": "light"
+    }
+  }
+}
